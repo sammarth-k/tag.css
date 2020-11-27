@@ -8,7 +8,7 @@ The usage of the library is simple. In your HTML markup, you have to use <tag> t
 ## Documentation
 
 ### Default tag:
-<code>
+<pre>
     tag{
     color: #f7f7f7;
     background-color: #333;
@@ -16,7 +16,7 @@ The usage of the library is simple. In your HTML markup, you have to use <tag> t
     padding: 0 0.4rem 0 0.4rem;  /*top right bottom left*/
     position:relative;
     }
-</code>
+</pre>
 
 
 
