@@ -1,2 +1,0 @@
-arr = document.getElementsByTagName('tag');
-

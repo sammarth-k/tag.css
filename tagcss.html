@@ -1,10 +1,87 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="tag.css">
-    </head>
-    <body>
-        <tag class="tag-rounded tag-hollow-cyan">hel</tag>
-    </body>
-   
+
+<head>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+        rel="stylesheet">
+    <link href="custom/fa/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="custom/assets/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="custom/assets/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="custom/assets/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="custom/assets/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="custom/assets/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="custom/assets/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="custom/assets/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="custom/assets/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="custom/assets/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="custom/assets/apple-touch-icon-180x180.png" />
+    <link rel="stylesheet" href="tag.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom/style.css">
+    <title>Tag Css</title>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="https://sam.qprogramming.net/"><img style="padding-bottom:0.2rem;" width="38rem" height="auto" src="custom/assets/logo.png"></a>
+        <div id="links">
+            <a onclick="toggle();"><i id="toggle" class="fas fa-sun" aria-hidden="true"></i></a>
+            <a href="https://github.com/sammarth-k/tag.css"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="https://sam.qprogramming.net/tagcss/docs">Docs</a>
+            <a href="https://sam.qprogramming.net/tagcss/about">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+<br><br><br><br>
+    <div align="center">
+        <header>
+            <img src="custom/assets/banner.svg" width="250rem" height="auto"
+                class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+        </header>
+    </div>
+
+    <div align="center" class="container">
+        <h3>Responsive tags and flairs of different colors, shapes, fills and sizes</h3><br>
+        
+        <h3 id="cyan">Cyan</h3>
+        <div class="row">
+
+            <div class="col-sm">
+                <tag class="tag-small tag-cyan">cyan</tag><br><br>
+                <tag class="tag-cyan">cyan</tag><br><br>
+                <tag class="tag-large tag-cyan">cyan</tag><br><br>
+                <tag class="tag-xl tag-cyan">cyan</tag><br><br>
+                <p>Solid</p>
+
+            </div>
+            <div class="col-sm">
+                <tag class="tag-small tag-cyan-hollow">cyan</tag><br><br>
+                <tag class="tag-cyan-hollow">cyan</tag><br><br>
+                <tag class="tag-large tag-cyan-hollow">cyan</tag><br><br>
+                <tag class="tag-xl tag-cyan-hollow">cyan</tag><br><br>
+
+                <p>Hollow</p>
+            </div>
+            <div class="col-sm">
+                <tag class="tag-small tag-rounded tag-cyan">cyan</tag><br><br>
+                <tag class="tag-rounded tag-cyan">cyan</tag><br><br>
+                <tag class="tag-large tag-rounded tag-cyan">cyan</tag><br><br>
+                <tag class="tag-xl tag-rounded tag-cyan">cyan</tag><br><br>
+                <p>Rounded Solid</p>
+            </div>
+            <div class="col-sm">
+                <tag class="tag-small tag-rounded tag-cyan-hollow">cyan</tag><br><br>
+                <tag class="tag-rounded tag-cyan-hollow">cyan</tag><br><br>
+                <tag class="tag-large tag-rounded tag-cyan-hollow">cyan</tag><br><br>
+                <tag class="tag-xl tag-rounded tag-cyan-hollow">cyan</tag><br><br>
+                <p>Rounded Hollow</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="custom/script.js">
+</script>
+
 </html>

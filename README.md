@@ -1,13 +1,16 @@
 # tag.css
-
-## Usage
+1.<a href="#usage">Usage</a>  
+2.<a href="#install">Install</a>  
+3.<a href="#documentation">Documentation</a>  
+4.<a href="#upcoming">Upcoming Features</a>
+## <b id="usage">Usage</b>
 tag.css can be used to create tags and flairs of different colors, shapes, sizes and fills, all with responsive design.
 
-The usage of the library is simple. In your HTML markup, you have to use ```<tag>``` tags to create tags with the library. By default, the default theme is light, but you can toggle between light and dark mode. The default shape is box and fill is solid.
+The usage of the library is simple. In your HTML markup, you have to use ```<tag>``` tags to create tags with the library. The default shape is box and fill is solid.
 
-## Installation
+## <b id="install">Installation</b>
 tag.css can be installed by downloading the github repo.
-## Documentation
+## <b id="documentation">Documentation</b>
 
 ### Default tag
 
@@ -22,21 +25,6 @@ tag.css can be installed by downloading the github repo.
     }
 ```
 ---
-### Color Theme
-Different color themes indicate different text colors.
-| Theme          | HEX     | RGB              | Class    |
-| -------------- | ------- | ---------------- | -------- |
-| Light (defaut) | #f7f7f7 | rgb(247,247,247) | -        |
-| Dark           | #333333 | rgb(51,51,51)    | tag-dark |
-
----
-
-### Shape
-| Shape         | Class       |
-| ------------- | ----------- |
-| Box (default) | -           |
-| Rounded       | tag-rounded |
----
 ### Sizes
 | Size            | Class     |
 | --------------- | --------- |
@@ -46,16 +34,19 @@ Different color themes indicate different text colors.
 | extra large     | tag-xl    |
 
 ---
-### Fills
-| Fill            | Class     |
-| --------------- | --------- |
-| Solid (default) | -         |
-| Hollow          | tag-holow |
+### Shape
+| Shape         | Class       |
+| ------------- | ----------- |
+| Box (default) | -           |
+| Rounded       | tag-rounded |
 ---
 ### Colored Tags
-| Color | HEX | RGBA | Class |
-| ----- | --- | ---- | ----- |
+| Color | HEX | Solid | Hollow |
+| ----- | --- | ----- | ------ |
 
+<br>
+
+## <b id="upcoming">Upcoming Features</b>
   
   
 
